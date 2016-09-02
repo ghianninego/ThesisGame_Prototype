@@ -1,0 +1,983 @@
+fileFormatVersion: 2
+guid: 809e1158a9a8a8a47846ebafaeef924d
+timeCreated: 1472840602
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: PlayStation - Suikoden 2 - Nina_0
+    21300002: PlayStation - Suikoden 2 - Nina_1
+    21300004: PlayStation - Suikoden 2 - Nina_2
+    21300006: PlayStation - Suikoden 2 - Nina_3
+    21300008: PlayStation - Suikoden 2 - Nina_4
+    21300010: PlayStation - Suikoden 2 - Nina_5
+    21300012: PlayStation - Suikoden 2 - Nina_6
+    21300014: PlayStation - Suikoden 2 - Nina_7
+    21300016: PlayStation - Suikoden 2 - Nina_8
+    21300018: PlayStation - Suikoden 2 - Nina_9
+    21300020: PlayStation - Suikoden 2 - Nina_10
+    21300022: PlayStation - Suikoden 2 - Nina_11
+    21300024: PlayStation - Suikoden 2 - Nina_12
+    21300026: PlayStation - Suikoden 2 - Nina_13
+    21300028: PlayStation - Suikoden 2 - Nina_14
+    21300030: PlayStation - Suikoden 2 - Nina_15
+    21300032: PlayStation - Suikoden 2 - Nina_16
+    21300034: PlayStation - Suikoden 2 - Nina_17
+    21300036: PlayStation - Suikoden 2 - Nina_18
+    21300038: PlayStation - Suikoden 2 - Nina_19
+    21300040: PlayStation - Suikoden 2 - Nina_20
+    21300042: PlayStation - Suikoden 2 - Nina_21
+    21300044: PlayStation - Suikoden 2 - Nina_22
+    21300046: PlayStation - Suikoden 2 - Nina_23
+    21300048: PlayStation - Suikoden 2 - Nina_24
+    21300050: PlayStation - Suikoden 2 - Nina_25
+    21300052: PlayStation - Suikoden 2 - Nina_26
+    21300054: PlayStation - Suikoden 2 - Nina_27
+    21300056: PlayStation - Suikoden 2 - Nina_28
+    21300058: PlayStation - Suikoden 2 - Nina_29
+    21300060: PlayStation - Suikoden 2 - Nina_30
+    21300062: PlayStation - Suikoden 2 - Nina_31
+    21300064: PlayStation - Suikoden 2 - Nina_32
+    21300066: PlayStation - Suikoden 2 - Nina_33
+    21300068: PlayStation - Suikoden 2 - Nina_34
+    21300070: PlayStation - Suikoden 2 - Nina_35
+    21300072: PlayStation - Suikoden 2 - Nina_36
+    21300074: PlayStation - Suikoden 2 - Nina_37
+    21300076: PlayStation - Suikoden 2 - Nina_38
+    21300078: PlayStation - Suikoden 2 - Nina_39
+    21300080: PlayStation - Suikoden 2 - Nina_40
+    21300082: PlayStation - Suikoden 2 - Nina_41
+    21300084: PlayStation - Suikoden 2 - Nina_42
+    21300086: PlayStation - Suikoden 2 - Nina_43
+    21300088: PlayStation - Suikoden 2 - Nina_44
+    21300090: PlayStation - Suikoden 2 - Nina_45
+    21300092: PlayStation - Suikoden 2 - Nina_46
+    21300094: PlayStation - Suikoden 2 - Nina_47
+    21300096: PlayStation - Suikoden 2 - Nina_48
+    21300098: PlayStation - Suikoden 2 - Nina_49
+    21300100: PlayStation - Suikoden 2 - Nina_50
+    21300102: PlayStation - Suikoden 2 - Nina_51
+    21300104: PlayStation - Suikoden 2 - Nina_52
+    21300106: PlayStation - Suikoden 2 - Nina_53
+    21300108: PlayStation - Suikoden 2 - Nina_54
+    21300110: PlayStation - Suikoden 2 - Nina_55
+    21300112: PlayStation - Suikoden 2 - Nina_56
+    21300114: PlayStation - Suikoden 2 - Nina_57
+    21300116: PlayStation - Suikoden 2 - Nina_58
+    21300118: PlayStation - Suikoden 2 - Nina_59
+    21300120: PlayStation - Suikoden 2 - Nina_60
+    21300122: PlayStation - Suikoden 2 - Nina_61
+    21300124: PlayStation - Suikoden 2 - Nina_62
+    21300126: PlayStation - Suikoden 2 - Nina_63
+    21300128: PlayStation - Suikoden 2 - Nina_64
+    21300130: PlayStation - Suikoden 2 - Nina_65
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: PlayStation - Suikoden 2 - Nina_0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 386
+        width: 16
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayStation - Suikoden 2 - Nina_1
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 388
+        width: 18
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayStation - Suikoden 2 - Nina_2
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 386
+        width: 16
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayStation - Suikoden 2 - Nina_3
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 361
+        width: 17
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayStation - Suikoden 2 - Nina_4
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 363
+        width: 18
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayStation - Suikoden 2 - Nina_5
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 361
+        width: 17
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayStation - Suikoden 2 - Nina_6
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 363
+        width: 18
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayStation - Suikoden 2 - Nina_7
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 364
+        width: 18
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayStation - Suikoden 2 - Nina_8
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 338
+        width: 16
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayStation - Suikoden 2 - Nina_9
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 340
+        width: 18
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayStation - Suikoden 2 - Nina_10
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 338
+        width: 16
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayStation - Suikoden 2 - Nina_11
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 314
+        width: 15
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayStation - Suikoden 2 - Nina_12
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 314
+        width: 15
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayStation - Suikoden 2 - Nina_13
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 288
+        width: 16
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayStation - Suikoden 2 - Nina_14
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 288
+        width: 15
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayStation - Suikoden 2 - Nina_15
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 288
+        width: 16
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayStation - Suikoden 2 - Nina_16
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 216
+        width: 25
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayStation - Suikoden 2 - Nina_17
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 256
+        width: 30
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayStation - Suikoden 2 - Nina_18
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 256
+        width: 21
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayStation - Suikoden 2 - Nina_19
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 256
+        width: 22
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayStation - Suikoden 2 - Nina_20
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 216
+        width: 28
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayStation - Suikoden 2 - Nina_21
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 223
+        width: 28
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayStation - Suikoden 2 - Nina_22
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 225
+        width: 32
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayStation - Suikoden 2 - Nina_23
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 216
+        width: 26
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayStation - Suikoden 2 - Nina_24
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 221
+        width: 47
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayStation - Suikoden 2 - Nina_25
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 220
+        width: 46
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayStation - Suikoden 2 - Nina_26
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 216
+        width: 44
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayStation - Suikoden 2 - Nina_27
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 216
+        width: 44
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayStation - Suikoden 2 - Nina_28
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 232
+        width: 15
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayStation - Suikoden 2 - Nina_29
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 232
+        width: 13
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayStation - Suikoden 2 - Nina_30
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 232
+        width: 11
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayStation - Suikoden 2 - Nina_31
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 152
+        width: 31
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayStation - Suikoden 2 - Nina_32
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 192
+        width: 39
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayStation - Suikoden 2 - Nina_33
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 192
+        width: 39
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayStation - Suikoden 2 - Nina_34
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 192
+        width: 34
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayStation - Suikoden 2 - Nina_35
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 159
+        width: 24
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayStation - Suikoden 2 - Nina_36
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 159
+        width: 17
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayStation - Suikoden 2 - Nina_37
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 75
+        width: 30
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayStation - Suikoden 2 - Nina_38
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 157
+        width: 45
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayStation - Suikoden 2 - Nina_39
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 156
+        width: 47
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayStation - Suikoden 2 - Nina_40
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 194
+        width: 9
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayStation - Suikoden 2 - Nina_41
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 152
+        width: 29
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayStation - Suikoden 2 - Nina_42
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 152
+        width: 30
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayStation - Suikoden 2 - Nina_43
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 152
+        width: 31
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayStation - Suikoden 2 - Nina_44
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 155
+        width: 43
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayStation - Suikoden 2 - Nina_45
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 174
+        width: 28
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayStation - Suikoden 2 - Nina_46
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 173
+        width: 11
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayStation - Suikoden 2 - Nina_47
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 155
+        width: 15
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayStation - Suikoden 2 - Nina_48
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 153
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayStation - Suikoden 2 - Nina_49
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 82
+        width: 26
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayStation - Suikoden 2 - Nina_50
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 82
+        width: 26
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayStation - Suikoden 2 - Nina_51
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 82
+        width: 28
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayStation - Suikoden 2 - Nina_52
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 113
+        width: 20
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayStation - Suikoden 2 - Nina_53
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 89
+        width: 19
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayStation - Suikoden 2 - Nina_54
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 29
+        width: 32
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayStation - Suikoden 2 - Nina_55
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 29
+        width: 32
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayStation - Suikoden 2 - Nina_56
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 65
+        width: 18
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayStation - Suikoden 2 - Nina_57
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 28
+        width: 32
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayStation - Suikoden 2 - Nina_58
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 18
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayStation - Suikoden 2 - Nina_59
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 18
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayStation - Suikoden 2 - Nina_60
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 18
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayStation - Suikoden 2 - Nina_61
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 18
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayStation - Suikoden 2 - Nina_62
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 18
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayStation - Suikoden 2 - Nina_63
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 18
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayStation - Suikoden 2 - Nina_64
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 10
+        width: 48
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PlayStation - Suikoden 2 - Nina_65
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 10
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
