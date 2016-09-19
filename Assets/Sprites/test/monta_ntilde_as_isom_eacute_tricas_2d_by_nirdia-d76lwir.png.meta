@@ -1,0 +1,484 @@
+fileFormatVersion: 2
+guid: a3da40b2734a66c4eb08e3ef47cf4d9b
+timeCreated: 1473170544
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: monta_ntilde_as_isom_eacute_tricas_2d_by_nirdia-d76lwir_0
+    21300002: monta_ntilde_as_isom_eacute_tricas_2d_by_nirdia-d76lwir_1
+    21300004: monta_ntilde_as_isom_eacute_tricas_2d_by_nirdia-d76lwir_2
+    21300006: monta_ntilde_as_isom_eacute_tricas_2d_by_nirdia-d76lwir_3
+    21300008: monta_ntilde_as_isom_eacute_tricas_2d_by_nirdia-d76lwir_4
+    21300010: monta_ntilde_as_isom_eacute_tricas_2d_by_nirdia-d76lwir_5
+    21300012: monta_ntilde_as_isom_eacute_tricas_2d_by_nirdia-d76lwir_6
+    21300014: monta_ntilde_as_isom_eacute_tricas_2d_by_nirdia-d76lwir_7
+    21300016: monta_ntilde_as_isom_eacute_tricas_2d_by_nirdia-d76lwir_8
+    21300018: monta_ntilde_as_isom_eacute_tricas_2d_by_nirdia-d76lwir_9
+    21300020: monta_ntilde_as_isom_eacute_tricas_2d_by_nirdia-d76lwir_10
+    21300022: monta_ntilde_as_isom_eacute_tricas_2d_by_nirdia-d76lwir_11
+    21300024: monta_ntilde_as_isom_eacute_tricas_2d_by_nirdia-d76lwir_12
+    21300026: monta_ntilde_as_isom_eacute_tricas_2d_by_nirdia-d76lwir_13
+    21300028: monta_ntilde_as_isom_eacute_tricas_2d_by_nirdia-d76lwir_14
+    21300030: monta_ntilde_as_isom_eacute_tricas_2d_by_nirdia-d76lwir_15
+    21300032: monta_ntilde_as_isom_eacute_tricas_2d_by_nirdia-d76lwir_16
+    21300034: monta_ntilde_as_isom_eacute_tricas_2d_by_nirdia-d76lwir_17
+    21300036: monta_ntilde_as_isom_eacute_tricas_2d_by_nirdia-d76lwir_18
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: monta_ntilde_as_isom_eacute_tricas_2d_by_nirdia-d76lwir_0
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 747
+        width: 304
+        height: 231
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 142, y: 16.5}
+        - {x: 118, y: 37.5}
+        - {x: 95, y: 41.5}
+        - {x: 60, y: 53.5}
+        - {x: 4, y: 99.5}
+        - {x: -12, y: 115.5}
+        - {x: -31, y: 115.5}
+        - {x: -67, y: 91.5}
+        - {x: -72, y: 62.5}
+        - {x: -118, y: 41.5}
+        - {x: -152, y: -3.5}
+        - {x: -152, y: -29.5}
+        - {x: -132, y: -81.5}
+        - {x: -105, y: -109.5}
+        - {x: -67, y: -115.5}
+        - {x: 21, y: -115.5}
+        - {x: 132, y: -71.5}
+        - {x: 152, y: -54.5}
+        - {x: 152, y: -9.5}
+    - name: monta_ntilde_as_isom_eacute_tricas_2d_by_nirdia-d76lwir_1
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 763
+        width: 240
+        height: 215
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 36, y: 107.5}
+        - {x: 15, y: 105.5}
+        - {x: 11, y: 99.5}
+        - {x: 8, y: 107.5}
+        - {x: -15, y: 107.5}
+        - {x: -49, y: 94.5}
+        - {x: -113, y: 2.5}
+        - {x: -120, y: -22.5}
+        - {x: -120, y: -68.5}
+        - {x: -100, y: -97.5}
+        - {x: -40, y: -107.5}
+        - {x: 8, y: -107.5}
+        - {x: 53, y: -103.5}
+        - {x: 120, y: -63.5}
+        - {x: 120, y: 11.5}
+        - {x: 38, y: 107.5}
+    - name: monta_ntilde_as_isom_eacute_tricas_2d_by_nirdia-d76lwir_2
+      rect:
+        serializedVersion: 2
+        x: 653
+        y: 734
+        width: 328
+        height: 257
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 164, y: -67.5}
+        - {x: 164, y: 0.5}
+        - {x: 88, y: 88.5}
+        - {x: 40, y: 125.5}
+        - {x: 19, y: 128.5}
+        - {x: -39, y: 128.5}
+        - {x: -55, y: 108.5}
+        - {x: -82, y: 101.5}
+        - {x: -141, y: 5.5}
+        - {x: -164, y: -22.5}
+        - {x: -164, y: -76.5}
+        - {x: -147, y: -89.5}
+        - {x: -128, y: -98.5}
+        - {x: -87, y: -107.5}
+        - {x: -60, y: -125.5}
+        - {x: -39, y: -128.5}
+        - {x: 76, y: -128.5}
+        - {x: 102, y: -109.5}
+        - {x: 108, y: -95.5}
+    - name: monta_ntilde_as_isom_eacute_tricas_2d_by_nirdia-d76lwir_3
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 480
+        width: 316
+        height: 245
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 158, y: -3.5}
+        - {x: 137, y: 15.5}
+        - {x: 55, y: 70.5}
+        - {x: 32, y: 122.5}
+        - {x: 7, y: 122.5}
+        - {x: -17, y: 113.5}
+        - {x: -47, y: 93.5}
+        - {x: -69, y: 31.5}
+        - {x: -140, y: 14.5}
+        - {x: -158, y: -13.5}
+        - {x: -158, y: -67.5}
+        - {x: -88, y: -122.5}
+        - {x: -14, y: -122.5}
+        - {x: 4, y: -119.5}
+        - {x: 121, y: -79.5}
+        - {x: 151, y: -67.5}
+        - {x: 158, y: -44.5}
+      - - {x: 127, y: -119.5}
+        - {x: 127, y: -122.5}
+        - {x: 135, y: -122.5}
+        - {x: 135, y: -120.5}
+        - {x: 132, y: -117.5}
+        - {x: 129, y: -117.5}
+    - name: monta_ntilde_as_isom_eacute_tricas_2d_by_nirdia-d76lwir_4
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 483
+        width: 368
+        height: 245
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 108, y: -91.5}
+        - {x: 145, y: -83.5}
+        - {x: 153, y: -80.5}
+        - {x: 184, y: -64.5}
+        - {x: 184, y: -35.5}
+        - {x: 167, y: 41.5}
+        - {x: 144, y: 101.5}
+        - {x: 132, y: 120.5}
+        - {x: 113, y: 122.5}
+        - {x: 89, y: 122.5}
+        - {x: 64, y: 86.5}
+        - {x: 42, y: 99.5}
+        - {x: -5, y: 122.5}
+        - {x: -23, y: 122.5}
+        - {x: -44, y: 111.5}
+        - {x: -72, y: 122.5}
+        - {x: -117, y: 67.5}
+        - {x: -163, y: 5.5}
+        - {x: -184, y: -47.5}
+        - {x: -184, y: -81.5}
+        - {x: -153, y: -122.5}
+        - {x: -6, y: -122.5}
+        - {x: 24, y: -105.5}
+        - {x: 45, y: -58.5}
+    - name: monta_ntilde_as_isom_eacute_tricas_2d_by_nirdia-d76lwir_5
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 382
+        width: 182
+        height: 224
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 65, y: 55}
+        - {x: 39, y: 96}
+        - {x: 28, y: 112}
+        - {x: -14, y: 112}
+        - {x: -91, y: -2}
+        - {x: -91, y: -65}
+        - {x: -72, y: -97}
+        - {x: -22, y: -112}
+        - {x: 48, y: -112}
+        - {x: 70, y: -109}
+        - {x: 91, y: -86}
+        - {x: 91, y: -34}
+        - {x: 82, y: 21}
+    - name: monta_ntilde_as_isom_eacute_tricas_2d_by_nirdia-d76lwir_6
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 199
+        width: 403
+        height: 284
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 197.5, y: -20}
+        - {x: 201.5, y: -4}
+        - {x: 201.5, y: 44}
+        - {x: 184.5, y: 73}
+        - {x: 121.5, y: 140}
+        - {x: 110.5, y: 142}
+        - {x: 78.5, y: 142}
+        - {x: 71.5, y: 129}
+        - {x: 54.5, y: 135}
+        - {x: 1.5, y: 103}
+        - {x: -47.5, y: 44}
+        - {x: -66.5, y: 70}
+        - {x: -72.5, y: 70}
+        - {x: -74.5, y: 68}
+        - {x: -125.5, y: 21}
+        - {x: -201.5, y: -62}
+        - {x: -201.5, y: -120}
+        - {x: -161.5, y: -142}
+        - {x: -69.5, y: -142}
+        - {x: -32.5, y: -106}
+        - {x: 57.5, y: -97}
+        - {x: 103.5, y: -47}
+      - - {x: 150.5, y: -74}
+        - {x: 132.5, y: -80}
+        - {x: 116.5, y: -102}
+        - {x: 110.5, y: -141}
+        - {x: 110.5, y: -142}
+        - {x: 201.5, y: -142}
+        - {x: 201.5, y: -101}
+        - {x: 184.5, y: -74}
+      - - {x: 177.5, y: -51}
+        - {x: 179.5, y: -53}
+        - {x: 182.5, y: -52}
+        - {x: 182.5, y: -49}
+        - {x: 180.5, y: -47}
+        - {x: 177.5, y: -48}
+      - - {x: -120.5, y: 142}
+        - {x: -119.5, y: 139}
+        - {x: -114.5, y: 137}
+        - {x: -77.5, y: 137}
+        - {x: -73.5, y: 140}
+        - {x: -73.5, y: 142}
+    - name: monta_ntilde_as_isom_eacute_tricas_2d_by_nirdia-d76lwir_7
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 40
+        width: 241
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 101.5, y: 26.5}
+        - {x: 11.5, y: 108.5}
+        - {x: 1.5, y: 112.5}
+        - {x: -31.5, y: 112.5}
+        - {x: -70.5, y: 87.5}
+        - {x: -120.5, y: -1.5}
+        - {x: -120.5, y: -87.5}
+        - {x: -108.5, y: -97.5}
+        - {x: -59.5, y: -112.5}
+        - {x: 36.5, y: -112.5}
+        - {x: 102.5, y: -91.5}
+        - {x: 120.5, y: -78.5}
+        - {x: 120.5, y: -15.5}
+      - - {x: 101.5, y: 112.5}
+        - {x: 105.5, y: 101.5}
+        - {x: 114.5, y: 92.5}
+        - {x: 120.5, y: 92.5}
+        - {x: 120.5, y: 112.5}
+    - name: monta_ntilde_as_isom_eacute_tricas_2d_by_nirdia-d76lwir_8
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 246
+        width: 254
+        height: 221
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 76, y: 68.5}
+        - {x: 67, y: 80.5}
+        - {x: 48, y: 86.5}
+        - {x: 13, y: 69.5}
+        - {x: 0, y: 108.5}
+        - {x: -7, y: 110.5}
+        - {x: -48, y: 110.5}
+        - {x: -58, y: 98.5}
+        - {x: -99, y: 10.5}
+        - {x: -122, y: -6.5}
+        - {x: -127, y: -19.5}
+        - {x: -127, y: -73.5}
+        - {x: -97, y: -110.5}
+        - {x: 55, y: -110.5}
+        - {x: 124, y: -88.5}
+        - {x: 127, y: -75.5}
+        - {x: 127, y: -25.5}
+    - name: monta_ntilde_as_isom_eacute_tricas_2d_by_nirdia-d76lwir_9
+      rect:
+        serializedVersion: 2
+        x: 807
+        y: 84
+        width: 160
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -72, y: 59.5}
+        - {x: -80, y: 41.5}
+        - {x: -80, y: -41.5}
+        - {x: -78, y: -59.5}
+        - {x: 79, y: -59.5}
+        - {x: 80, y: -58.5}
+        - {x: 80, y: 13.5}
+        - {x: 30, y: 59.5}
+    - name: monta_ntilde_as_isom_eacute_tricas_2d_by_nirdia-d76lwir_10
+      rect:
+        serializedVersion: 2
+        x: 796
+        y: 57
+        width: 62
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: monta_ntilde_as_isom_eacute_tricas_2d_by_nirdia-d76lwir_11
+      rect:
+        serializedVersion: 2
+        x: 861
+        y: 57
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: monta_ntilde_as_isom_eacute_tricas_2d_by_nirdia-d76lwir_12
+      rect:
+        serializedVersion: 2
+        x: 875
+        y: 57
+        width: 4
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: monta_ntilde_as_isom_eacute_tricas_2d_by_nirdia-d76lwir_13
+      rect:
+        serializedVersion: 2
+        x: 882
+        y: 57
+        width: 8
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: monta_ntilde_as_isom_eacute_tricas_2d_by_nirdia-d76lwir_14
+      rect:
+        serializedVersion: 2
+        x: 891
+        y: 57
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: monta_ntilde_as_isom_eacute_tricas_2d_by_nirdia-d76lwir_15
+      rect:
+        serializedVersion: 2
+        x: 906
+        y: 57
+        width: 4
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: monta_ntilde_as_isom_eacute_tricas_2d_by_nirdia-d76lwir_16
+      rect:
+        serializedVersion: 2
+        x: 911
+        y: 57
+        width: 19
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: monta_ntilde_as_isom_eacute_tricas_2d_by_nirdia-d76lwir_17
+      rect:
+        serializedVersion: 2
+        x: 932
+        y: 57
+        width: 27
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: monta_ntilde_as_isom_eacute_tricas_2d_by_nirdia-d76lwir_18
+      rect:
+        serializedVersion: 2
+        x: 961
+        y: 57
+        width: 19
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
