@@ -1,0 +1,563 @@
+fileFormatVersion: 2
+guid: 28376c5962b9665408c4e6f0277bc13e
+timeCreated: 1474874390
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: finland_by_hanatoa-d8a0191_0
+    21300002: finland_by_hanatoa-d8a0191_1
+    21300004: finland_by_hanatoa-d8a0191_2
+    21300006: finland_by_hanatoa-d8a0191_3
+    21300008: finland_by_hanatoa-d8a0191_5
+    21300010: finland_by_hanatoa-d8a0191_6
+    21300012: finland_by_hanatoa-d8a0191_8
+    21300014: finland_by_hanatoa-d8a0191_9
+    21300016: finland_by_hanatoa-d8a0191_10
+    21300018: finland_by_hanatoa-d8a0191_11
+    21300020: finland_by_hanatoa-d8a0191_12
+    21300022: finland_by_hanatoa-d8a0191_13
+    21300024: finland_by_hanatoa-d8a0191_14
+    21300026: finland_by_hanatoa-d8a0191_15
+    21300028: finland_by_hanatoa-d8a0191_16
+    21300030: finland_by_hanatoa-d8a0191_17
+    21300032: finland_by_hanatoa-d8a0191_18
+    21300034: finland_by_hanatoa-d8a0191_19
+    21300036: finland_by_hanatoa-d8a0191_20
+    21300038: finland_by_hanatoa-d8a0191_21
+    21300040: finland_by_hanatoa-d8a0191_22
+    21300042: finland_by_hanatoa-d8a0191_23
+    21300044: finland_by_hanatoa-d8a0191_24
+    21300046: finland_by_hanatoa-d8a0191_25
+    21300048: finland_by_hanatoa-d8a0191_26
+    21300050: finland_by_hanatoa-d8a0191_27
+    21300052: finland_by_hanatoa-d8a0191_28
+    21300054: finland_by_hanatoa-d8a0191_29
+    21300056: finland_by_hanatoa-d8a0191_30
+    21300058: finland_by_hanatoa-d8a0191_31
+    21300060: finland_by_hanatoa-d8a0191_32
+    21300062: finland_by_hanatoa-d8a0191_33
+    21300064: finland_by_hanatoa-d8a0191_4
+    21300066: finland_by_hanatoa-d8a0191_7
+    21300068: finland_by_hanatoa-d8a0191_34
+    21300070: finland_by_hanatoa-d8a0191_35
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: finland_by_hanatoa-d8a0191_0
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 224
+        width: 24
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: finland_by_hanatoa-d8a0191_1
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 223
+        width: 25
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: finland_by_hanatoa-d8a0191_2
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 224
+        width: 24
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: finland_by_hanatoa-d8a0191_3
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 224
+        width: 26
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: finland_by_hanatoa-d8a0191_5
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 224
+        width: 25
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: finland_by_hanatoa-d8a0191_6
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 223
+        width: 25
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: finland_by_hanatoa-d8a0191_8
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 223
+        width: 25
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: finland_by_hanatoa-d8a0191_9
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 192
+        width: 23
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: finland_by_hanatoa-d8a0191_10
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 192
+        width: 23
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: finland_by_hanatoa-d8a0191_11
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 192
+        width: 23
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: finland_by_hanatoa-d8a0191_12
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 192
+        width: 23
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: finland_by_hanatoa-d8a0191_13
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 191
+        width: 25
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: finland_by_hanatoa-d8a0191_14
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 191
+        width: 25
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: finland_by_hanatoa-d8a0191_15
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 160
+        width: 23
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: finland_by_hanatoa-d8a0191_16
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 160
+        width: 23
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: finland_by_hanatoa-d8a0191_17
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 160
+        width: 23
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: finland_by_hanatoa-d8a0191_18
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 160
+        width: 23
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: finland_by_hanatoa-d8a0191_19
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 159
+        width: 25
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: finland_by_hanatoa-d8a0191_20
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 159
+        width: 25
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: finland_by_hanatoa-d8a0191_21
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 128
+        width: 23
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: finland_by_hanatoa-d8a0191_22
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 128
+        width: 23
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: finland_by_hanatoa-d8a0191_23
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 128
+        width: 25
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: finland_by_hanatoa-d8a0191_24
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 128
+        width: 25
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: finland_by_hanatoa-d8a0191_25
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 127
+        width: 25
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: finland_by_hanatoa-d8a0191_26
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 127
+        width: 25
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: finland_by_hanatoa-d8a0191_27
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 192
+        width: 27
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: finland_by_hanatoa-d8a0191_28
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 160
+        width: 27
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: finland_by_hanatoa-d8a0191_29
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 129
+        width: 27
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: finland_by_hanatoa-d8a0191_30
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 223
+        width: 26
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: finland_by_hanatoa-d8a0191_31
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 192
+        width: 26
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: finland_by_hanatoa-d8a0191_32
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 161
+        width: 26
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: finland_by_hanatoa-d8a0191_33
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 128
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: finland_by_hanatoa-d8a0191_4
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 127
+        width: 25
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: finland_by_hanatoa-d8a0191_7
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 160
+        width: 25
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: finland_by_hanatoa-d8a0191_34
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 191
+        width: 25
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: finland_by_hanatoa-d8a0191_35
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 222
+        width: 25
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
