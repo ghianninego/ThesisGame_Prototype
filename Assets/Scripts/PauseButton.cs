@@ -5,6 +5,6 @@ public class PauseButton : MonoBehaviour {
 
 	void OnClick() {
 		Time.timeScale = 0;
-		//GameManager.Instance.pauseMenu.SetActive(true);
+		GameManager.Instance.pauseMenu.SetActive(true);
 	}
 }
