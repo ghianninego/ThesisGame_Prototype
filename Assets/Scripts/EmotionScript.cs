@@ -91,7 +91,7 @@ public class EmotionScript : MonoBehaviour {
 			default:
 				break;
 			}
-			yield return new WaitForSecondsRealtime (10f);
+			yield return new WaitForSecondsRealtime (0.5f);
 		}
 	}
 }

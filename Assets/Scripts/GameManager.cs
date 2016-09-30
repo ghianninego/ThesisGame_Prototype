@@ -7,7 +7,12 @@ public class GameManager : MonoBehaviour {
 
 	public GameObject[] things;
 	public GameObject goal;
+
+	//UI gameObjects
 	public GameObject pauseMenu;
+	public GameObject yesNoMenu;
+	public GameObject normalMenu;
+
 
 
 	void Start(){
@@ -16,13 +21,19 @@ public class GameManager : MonoBehaviour {
 		}
 
 		Time.timeScale = 1;
+		Menus ();
 
-		pauseMenu.SetActive (false);
 
 		things = GameObject.FindGameObjectsWithTag ("Goal");
-		goal = things [Random.Range (0, things.Length + 1)];
+		goal = things [Random.Range (0, things.Length)];
 		goal.GetComponent<Goal> ().IsGoal = true;
 		Debug.Log (goal.name);
+	}
+
+	void Menus() {
+		pauseMenu.SetActive (false);
+		yesNoMenu.SetActive (false);
+		normalMenu.SetActive (false);
 	}
 
 
