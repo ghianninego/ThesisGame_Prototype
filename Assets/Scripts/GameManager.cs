@@ -3,7 +3,7 @@ using System.Collections;
 
 public class GameManager : MonoBehaviour {
 
-	public static GameManager Instance = null;
+	public static GameManager Instance;
 
 	public GameObject[] things;
 	public GameObject goal;
@@ -12,13 +12,16 @@ public class GameManager : MonoBehaviour {
 	public GameObject pauseMenu;
 	public GameObject yesNoMenu;
 	public GameObject normalMenu;
+	private GameObject item;
 
 
 
 	void Start(){
+
 		if (Instance == null) {
-			Instance = this.GetComponent<GameManager>();
-		}
+			Instance = this;
+			Instance.gameObject.SetActive (true);
+		} 
 
 		Time.timeScale = 1;
 		Menus ();
@@ -28,6 +31,8 @@ public class GameManager : MonoBehaviour {
 		goal = things [Random.Range (0, things.Length)];
 		goal.GetComponent<Goal> ().IsGoal = true;
 		Debug.Log (goal.name);
+		Debug.Log ("asasasa");
+
 	}
 
 	void Menus() {
@@ -36,6 +41,17 @@ public class GameManager : MonoBehaviour {
 		normalMenu.SetActive (false);
 	}
 
+	public void getItem(GameObject x){
+		item = x;
+	}
+
+	public void ButtonYes(){
+		Buttons.ClickedYes (item);
+	}
+
+	public void ButtonNo(){
+		Buttons.ClickedNo ();
+	}
 
 
 }

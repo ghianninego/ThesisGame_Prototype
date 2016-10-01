@@ -16,9 +16,9 @@ public class animation01 : MonoBehaviour {
 		playery = this.gameObject.transform.localScale.y;
 	}
 	void Update (){
-
-		x = Input.GetAxis("Horizontal");
-		y = Input.GetAxis("Vertical");
+			x = Input.GetAxisRaw ("Horizontal");
+			y = Input.GetAxisRaw ("Vertical");
+			
 		anim.SetFloat ("x",x);
 		anim.SetFloat ("y",y);
 		if (x >= 0) {
