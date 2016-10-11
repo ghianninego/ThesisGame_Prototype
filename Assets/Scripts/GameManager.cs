@@ -12,6 +12,7 @@ public class GameManager : MonoBehaviour {
 	public GameObject pauseMenu;
 	public GameObject yesNoMenu;
 	public GameObject normalMenu;
+	public GameObject playersEmotionMenu;
 	private GameObject item;
 
 
