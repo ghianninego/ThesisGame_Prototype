@@ -191,6 +191,7 @@
      <Compile Include="Assets\Scripts\PauseButton.cs" />
      <Compile Include="Assets\Scripts\PlayerScript.cs" />
      <Compile Include="Assets\Scripts\ResumeButton.cs" />
+     <Compile Include="Assets\Scripts\StartGameButton.cs" />
      <Compile Include="Assets\Scripts\animation01.cs" />
      <None Include="Assets\NGUI\Examples\Shaders\Unlit - Depth Cutout.shader" />
      <None Include="Assets\NGUI\ReadMe - 3.9.8.txt" />
