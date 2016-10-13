@@ -32,7 +32,7 @@ public class GameManager : MonoBehaviour {
 		goal = things [Random.Range (0, things.Length)];
 		goal.GetComponent<Goal> ().IsGoal = true;
 		Debug.Log (goal.name);
-		Debug.Log ("asasasa");
+	//	Debug.Log ("asasasa");
 
 	}
 
