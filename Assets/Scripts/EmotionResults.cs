@@ -2,7 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 
-public class PlayerEmotion : MonoBehaviour {
+public class EmotionResults : MonoBehaviour {
 
 	public Stack<int> emotionPlayer;
 	public Stack<int> emotionComputer;

@@ -6,6 +6,7 @@ public class PlayerScript : MonoBehaviour {
 	public GameObject carrying;
 	public GameObject victory;
 	public GameObject notVictory;
+
 	void Start () {
 		carrying = null;
 	}

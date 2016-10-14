@@ -1,20 +1,21 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class animation01 : MonoBehaviour {
+public class PlayerAnimation : MonoBehaviour {
 
 	public float x, y;
-	public Animator anim;
 	public bool walled = false;
 	private float playerx , playery;
 
-	// Update is called once per frame
+	Animator anim;
 
 	void Start(){
 		anim = GetComponent<Animator>();
 		playerx = this.gameObject.transform.localScale.x;
 		playery = this.gameObject.transform.localScale.y;
 	}
+
+	// Update is called once per frame
 	void Update (){
 			x = Input.GetAxisRaw ("Horizontal");
 			y = Input.GetAxisRaw ("Vertical");

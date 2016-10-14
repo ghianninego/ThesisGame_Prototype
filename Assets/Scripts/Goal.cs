@@ -6,9 +6,6 @@ public class Goal : MonoBehaviour {
 	public bool IsGoal = false;
 	public bool IsPosonous;
 
-
-
-
 	void Start () {
 		if (Random.Range (0, 2) == 1) {
 			IsPosonous = true;
