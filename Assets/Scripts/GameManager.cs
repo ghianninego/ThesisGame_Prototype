@@ -11,7 +11,8 @@ public class GameManager : MonoBehaviour {
 	//UI gameObjects
 	public GameObject pauseMenu;
 	public GameObject yesNoMenu;
-	public GameObject normalMenu;
+	public GameObject victoryMenu;
+	public GameObject notVictoryMenu;
 	public GameObject playersEmotionMenu;
 	private GameObject item;
 
@@ -39,7 +40,8 @@ public class GameManager : MonoBehaviour {
 	void Menus() {
 		pauseMenu.SetActive (false);
 		yesNoMenu.SetActive (false);
-		normalMenu.SetActive (false);
+		notVictoryMenu.SetActive (false);
+		victoryMenu.SetActive (false);
 	}
 
 	public void getItem(GameObject x){

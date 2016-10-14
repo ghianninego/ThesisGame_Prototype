@@ -42,5 +42,14 @@ public class Buttons : MonoBehaviour {
 		GameObject.FindGameObjectWithTag ("YesNoWindow").SetActive (false);
 	}
 
+	public void victoryClose(GameObject window){
+		window.SetActive (false);
+	}
+
+	public void notVictoryClose(GameObject window){
+		window.SetActive (false);
+		PlayerScript player = GameObject.FindGameObjectWithTag ("Player").GetComponent<PlayerScript> ();
+		player.carrying = null;
+	}
 
 }
