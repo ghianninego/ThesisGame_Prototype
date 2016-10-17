@@ -18,7 +18,6 @@ public class GameManager : MonoBehaviour {
 
 
 	void Start(){
-
 		if (Instance == null) {
 			Instance = this;
 		} else {

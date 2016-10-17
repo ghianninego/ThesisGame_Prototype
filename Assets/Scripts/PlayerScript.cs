@@ -13,7 +13,7 @@ public class PlayerScript : MonoBehaviour {
 
 	void OnCollisionEnter2D(Collision2D col){
 		if (col.gameObject.tag == "Witch") {
-			if (this.carrying.GetComponent<Goal> ().IsGoal) {
+			if (carrying!=null && this.carrying.GetComponent<Goal> ().IsGoal) {
 				victory.SetActive (true);
 			} else {
 				notVictory.SetActive (true);
