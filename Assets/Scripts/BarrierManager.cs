@@ -45,33 +45,38 @@ public class BarrierManager : MonoBehaviour {
 		disgustBarrier [1].SetActive (false);
 	}
 
-	public void EmotionFound(string emotion) {
+	public void EmotionFound(int emotion) {
 		switch(emotion) {
-			case "happy":
+			case 1:
 				IsHappy ();
 				break;
-			case "sad":
+			case 2:
 				IsSad ();
 				break;
-			case "anger":
+			case 3:
 				IsAngry ();
 				break;
-			case "fear":
+			case 4:
 				IsFear ();
 				break;
-			case "surprise":
+			case 5:
 				IsSurprise ();
 				break;
-			case "disgust":
+			case 6:
 				IsDisgust ();
 				break;
+			case 0:
 			default:
 				//return nothing
 				break;
 		}
+
+		GameManager.Instance.playersEmotionMenu.SetActive (true);
 	}
 
 	void IsHappy() {
+		//push happy to stack
+
 		if (happyBarrier [0].activeSelf == true) {
 			happyBarrier [0].SetActive (false);
 			happyBarrier [1].SetActive (true);
@@ -82,6 +87,8 @@ public class BarrierManager : MonoBehaviour {
 	}
 
 	void IsSad() {
+		//push sad to stack
+
 		if (sadBarrier [0].activeSelf == true) {
 			sadBarrier [0].SetActive (false);
 			sadBarrier [1].SetActive (true);
@@ -92,6 +99,8 @@ public class BarrierManager : MonoBehaviour {
 	}
 
 	void IsAngry() {
+		//push angry to stack
+
 		if (angerBarrier [0].activeSelf == true) {
 			angerBarrier [0].SetActive (false);
 			angerBarrier [1].SetActive (true);
@@ -102,6 +111,8 @@ public class BarrierManager : MonoBehaviour {
 	}
 
 	void IsFear() {
+		//push fear to stack
+
 		if (fearBarrier [0].activeSelf == true) {
 			fearBarrier [0].SetActive (false);
 			fearBarrier [1].SetActive (true);
@@ -112,6 +123,8 @@ public class BarrierManager : MonoBehaviour {
 	}
 
 	void IsSurprise() {
+		//push surprise to stack
+
 		if (surpriseBarrier [0].activeSelf == true) {
 			surpriseBarrier [0].SetActive (false);
 			surpriseBarrier [1].SetActive (true);
@@ -122,6 +135,8 @@ public class BarrierManager : MonoBehaviour {
 	}
 
 	void IsDisgust() {
+		//push disgust to stack
+
 		if (disgustBarrier [0].activeSelf == true) {
 			disgustBarrier [0].SetActive (false);
 			disgustBarrier [1].SetActive (true);

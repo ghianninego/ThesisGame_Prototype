@@ -18,36 +18,43 @@ public class EmotionResults : MonoBehaviour {
 	public void Happy(){
 		emotionPlayer.Push (1);
 		emotionComputer.Push(getEmotionFromComputer ());
+		GameManager.Instance.playersEmotionMenu.SetActive (false);
 	}
 
 	public void Sad(){
 		emotionPlayer.Push (2);
 		emotionComputer.Push(getEmotionFromComputer ());
+		GameManager.Instance.playersEmotionMenu.SetActive (false);
 	}
 
 	public void Anger(){
 		emotionPlayer.Push (3);
 		emotionComputer.Push(getEmotionFromComputer ());
+		GameManager.Instance.playersEmotionMenu.SetActive (false);
 	}
 
 	public void Disgust(){
 		emotionPlayer.Push (4);
 		emotionComputer.Push(getEmotionFromComputer ());
+		GameManager.Instance.playersEmotionMenu.SetActive (false);
 	}
 
 	public void Surprise(){
 		emotionPlayer.Push (5);
 		emotionComputer.Push(getEmotionFromComputer ());
+		GameManager.Instance.playersEmotionMenu.SetActive (false);
 	}
 
 	public void Fear(){
 		emotionPlayer.Push (6);
 		emotionComputer.Push(getEmotionFromComputer ());
+		GameManager.Instance.playersEmotionMenu.SetActive (false);
 	}
 
 	public void Neutral(){
 		emotionPlayer.Push (0);
 		emotionComputer.Push(getEmotionFromComputer ());
+		GameManager.Instance.playersEmotionMenu.SetActive (false);
 	}
 
 	public float computePercent(){

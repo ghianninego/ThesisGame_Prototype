@@ -40,6 +40,7 @@ public class GameManager : MonoBehaviour {
 		yesNoMenu.SetActive (false);
 		notVictoryMenu.SetActive (false);
 		victoryMenu.SetActive (false);
+		playersEmotionMenu.SetActive (false);
 	}
 
 	public void getItem(GameObject x){
