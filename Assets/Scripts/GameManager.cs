@@ -14,10 +14,12 @@ public class GameManager : MonoBehaviour {
 	public GameObject victoryMenu;
 	public GameObject notVictoryMenu;
 	public GameObject playersEmotionMenu;
+	public bool optionWindowIsActive;
 	private GameObject item;
 
 
 	void Start(){
+		optionWindowIsActive = false;
 		if (Instance == null) {
 			Instance = this;
 		} else {
@@ -48,11 +50,11 @@ public class GameManager : MonoBehaviour {
 	}
 
 	public void ButtonYes(){
-		Buttons.ClickedYes (item);
+		Buttons.Instance.ClickedYes (item);
 	}
 
 	public void ButtonNo(){
-		Buttons.ClickedNo ();
+		Buttons.Instance.ClickedNo ();
 	}
 
 

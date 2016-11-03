@@ -20,6 +20,7 @@ public class Goal : MonoBehaviour {
 		if (col.gameObject.tag == "Player") {
 			if (col.gameObject.GetComponent<PlayerScript> ().carrying == null) {
 				GameManager.Instance.yesNoMenu.SetActive (true);
+				GameManager.Instance.optionWindowIsActive = true;
 				GameManager.Instance.getItem (gameObject);
 				StartCoroutine (Pause());
 			}

@@ -2,12 +2,21 @@
 using System.Collections;
 
 public class Buttons : MonoBehaviour {
+
+	public static Buttons Instance = null;
 	public delegate void Yes(GameObject x);
 	public static event Yes yesButton;
 	public delegate void No();
 	public static event No noButton;
 
 	void Start(){
+
+		if (Instance == null) {
+			Instance = this;
+		} else {
+			Destroy (Instance);
+		}
+
 		if (yesButton != null) {
 			yesButton (null);
 		}
@@ -26,20 +35,24 @@ public class Buttons : MonoBehaviour {
 		noButton -= ClickedNo;
 	}
 
-	public static void ClickedYes(GameObject mushroom){
+	public void ClickedYes(GameObject mushroom){
 		PlayerScript player = GameObject.FindGameObjectWithTag ("Player").GetComponent<PlayerScript> ();
-		if(player.carrying == null){
+		if(player.carrying == null && mushroom!=null){
 			player.carrying = mushroom;
 			mushroom.SetActive (false);
 
 		}
 		Time.timeScale = 1;
-		GameObject.FindGameObjectWithTag ("YesNoWindow").SetActive (false);
+
+			GameManager.Instance.yesNoMenu.SetActive (false);
+
 	}
 
-	public static void ClickedNo(){
+	public void ClickedNo(){
 		Time.timeScale = 1;
-		GameObject.FindGameObjectWithTag ("YesNoWindow").SetActive (false);
+
+			GameManager.Instance.yesNoMenu.SetActive (false);
+
 	}
 
 	public void victoryClose(GameObject window){
