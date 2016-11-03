@@ -17,16 +17,13 @@ public class SaveData : MonoBehaviour {
 		if(!File.Exists(filePath)){
 			CreateCSV ();
 		}
-		for (int i = 0; i < 10; i++) {
-			AddData (i, 10f);
-		}
 
 	}
 
 	void CreateCSV() {
 		string[][] output = new string[][]{  
 			new string[]{"sep=,"},
-			new string[]{"PlayerID", "Percentage"}  
+			new string[]{"PlayerID","StudentNumber","Name","Section", "Percentage"}  
 		};  
 		int length = output.GetLength(0);  
 		StringBuilder sb = new StringBuilder();  
@@ -37,8 +34,13 @@ public class SaveData : MonoBehaviour {
 		File.AppendAllText(filePath, sb.ToString());                 
 	}
 
-	public void AddData(int ID , float Percent){
-		string output = ID.ToString () + "," + Percent.ToString ()+"\n"; 
-		File.AppendAllText(filePath, output);  
+	public void AddData(PlayerData p){ 
+		File.AppendAllText(filePath, 
+			p.playerID +","+
+			p.studentNumber +","+
+			p.fullName +","+
+			p.section +","+
+			p.percentage.ToString() +"\n"
+		);  
 	}
 }

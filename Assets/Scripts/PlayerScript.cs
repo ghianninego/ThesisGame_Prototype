@@ -9,6 +9,7 @@ public class PlayerScript : MonoBehaviour {
 
 	void Start () {
 		carrying = null;
+		// PlayerData DataOfPlayer = new PlayerData (insertDataHere);
 	}
 
 	void OnCollisionEnter2D(Collision2D col){
