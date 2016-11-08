@@ -7,6 +7,7 @@ public class EmotionResults : MonoBehaviour {
 	public Stack<int> emotionPlayer;
 	public Stack<int> emotionComputer;
 	public static EmotionResults Singleton = null;
+
 	void Start () {
 		if (Singleton == null) {
 			Singleton = this;

@@ -11,9 +11,13 @@ public class GameManager : MonoBehaviour {
 	//UI gameObjects
 	public GameObject pauseMenu;
 	public GameObject yesNoMenu;
+	public UILabel yesNoMenuDescription;
 	public GameObject victoryMenu;
 	public GameObject notVictoryMenu;
 	public GameObject playersEmotionMenu;
+	public GameObject randomMenu;
+	public UILabel randomMenuDescription;
+
 	public bool optionWindowIsActive;
 	private GameObject item;
 
@@ -33,8 +37,6 @@ public class GameManager : MonoBehaviour {
 		goal = things [Random.Range (0, things.Length)];
 		goal.GetComponent<Goal> ().IsGoal = true;
 		Debug.Log (goal.name);
-	//	Debug.Log ("asasasa");
-
 	}
 
 	void SetMenus() {
@@ -43,6 +45,7 @@ public class GameManager : MonoBehaviour {
 		notVictoryMenu.SetActive (false);
 		victoryMenu.SetActive (false);
 		playersEmotionMenu.SetActive (false);
+		randomMenu.SetActive (false);
 	}
 
 	public void getItem(GameObject x){

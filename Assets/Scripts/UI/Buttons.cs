@@ -44,15 +44,19 @@ public class Buttons : MonoBehaviour {
 		}
 		Time.timeScale = 1;
 
-			GameManager.Instance.yesNoMenu.SetActive (false);
+		GameManager.Instance.yesNoMenu.SetActive (false);
 
 	}
 
 	public void ClickedNo(){
 		Time.timeScale = 1;
 
-			GameManager.Instance.yesNoMenu.SetActive (false);
+		GameManager.Instance.yesNoMenu.SetActive (false);
+	}
 
+	public void RandomClose() {
+		Time.timeScale = 1;
+		GameManager.Instance.randomMenu.SetActive (false);
 	}
 
 	public void victoryClose(GameObject window){
