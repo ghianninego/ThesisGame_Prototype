@@ -9,22 +9,27 @@ public class IntroButtons : MonoBehaviour {
 	//Input Game Objects
 	public UILabel name;
 	public UILabel id;
+	public UILabel section;
 
 	public void IntroSubmit() {
 		string _name = name.text;
 		string _id = id.text;
+		string _section = section.text;
 
 		if (CheckInput (_name, _id) == true) {
 			//submit data
 
 			PlayerDataInputPanel.SetActive (false);
+			Done ();
 			IntroPanel.SetActive (true);
+
+
 		} else {
 			Debug.Log ("Invalid Input");
 		}
 
-		Debug.Log (_name);
-		Debug.Log (_id);
+
+
 
 	}
 
@@ -41,5 +46,15 @@ public class IntroButtons : MonoBehaviour {
 		} else {
 			return true;
 		}
+	}
+
+	public void Done(){
+		if (!PlayerPrefs.HasKey ("PLAYERID")) {
+			PlayerPrefs.SetInt ("PLAYERID", 0);
+		} else {
+			PlayerPrefs.SetInt ("PLAYERID", PlayerPrefs.GetInt("PLAYERID")+1);
+		}
+
+		PlayerData.SetPlayerData (id.text, name.text, section.text, PlayerPrefs.GetInt ("PLAYERID")+"");
 	}
 }

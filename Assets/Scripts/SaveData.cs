@@ -8,7 +8,7 @@ public class SaveData : MonoBehaviour {
 	string delimiter = ",";  
 	public static SaveData Singleton = null;
 
-	void Start () {
+	public void CLICKED () {
 		if(Singleton==null){
 			Singleton = this;
 		}else{
@@ -23,8 +23,13 @@ public class SaveData : MonoBehaviour {
 	void CreateCSV() {
 		string[][] output = new string[][]{  
 			new string[]{"sep=,"},
-			new string[]{"PlayerID","StudentNumber","Name","Section", "Percentage"}  
+			new string[]{"PlayerID",
+						"StudentNumber",
+						"Name",
+						"Section",
+						"Percentage"}  
 		};  
+
 		int length = output.GetLength(0);  
 		StringBuilder sb = new StringBuilder();  
 		for (int index = 0; index < length; index++) {
@@ -34,13 +39,13 @@ public class SaveData : MonoBehaviour {
 		File.AppendAllText(filePath, sb.ToString());                 
 	}
 
-	public void AddData(PlayerData p){ 
+	public void AddData(){ 
 		File.AppendAllText(filePath, 
-			p.playerID +","+
-			p.studentNumber +","+
-			p.fullName +","+
-			p.section +","+
-			p.percentage.ToString() +"\n"
+			PlayerData.playerID +","+
+			PlayerData.studentNumber +","+
+			PlayerData.fullName +","+
+			PlayerData.section +","+
+			PlayerData.percentage.ToString() +"\n"
 		);  
 	}
 }

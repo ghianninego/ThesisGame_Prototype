@@ -2,24 +2,18 @@
 using System.Collections;
 
 public class PlayerData{
-	public static PlayerData instance = null;
-	public string studentNumber{ get; set;}
-	public string fullName{ get; set;}
-	public string section{ get; set;}
-	public string playerID{ get; set;}
-	public float percentage{ get; set;}
+	public static string studentNumber{ get; set;}
+	public static string fullName{ get; set;}
+	public static string section{ get; set;}
+	public static string playerID{ get; set;}
+	public static float percentage{ get; set;}
 
-	public PlayerData(
+	public static void SetPlayerData(
 		string _studenNumber,
 		string _fullName,
 		string _section,
 		string _playerID
 	){
-		if (instance == null) {
-			instance = this;
-		} else {
-			instance = null;
-		}
 
 		studentNumber = _studenNumber;
 		fullName = _fullName;
