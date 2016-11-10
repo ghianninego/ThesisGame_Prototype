@@ -193,6 +193,7 @@
      <Compile Include="Assets\Scripts\PlayerScript.cs" />
      <Compile Include="Assets\Scripts\SaveData.cs" />
      <Compile Include="Assets\Scripts\UI\Buttons.cs" />
+     <Compile Include="Assets\Scripts\UI\IntroButtons.cs" />
      <Compile Include="Assets\Scripts\UI\PauseButton.cs" />
      <Compile Include="Assets\Scripts\UI\ResumeButton.cs" />
      <Compile Include="Assets\Scripts\UI\StartGameButton.cs" />

@@ -16,22 +16,29 @@ public class GameManager : MonoBehaviour {
 	public GameObject notVictoryMenu;
 	public GameObject playersEmotionMenu;
 	public GameObject randomMenu;
+	public GameObject IntroductionWindow;
 	public UILabel randomMenuDescription;
 
 	public bool optionWindowIsActive;
+	public bool introWindow = true;
 	private GameObject item;
 
-
 	void Start(){
-		optionWindowIsActive = false;
 		if (Instance == null) {
 			Instance = this;
 		} else {
 			Destroy (Instance);
 		}
 
-		Time.timeScale = 1;
+		if (introWindow == true) {
+			Time.timeScale = 0;
+			IntroductionWindow.SetActive (true);
+		} else {
+			Time.timeScale = 1;
+		}
+
 		SetMenus ();
+		optionWindowIsActive = false;
 
 		things = GameObject.FindGameObjectsWithTag ("Goal");
 		goal = things [Random.Range (0, things.Length)];
