@@ -1,15 +1,16 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\UI\IntroButtons.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\GameManager.cs">
     <Files>
-      <File FileName="Assets\Scripts\GameManager.cs" Line="29" Column="11" />
+      <File FileName="Assets\Scripts\GameManager.cs" Line="85" Column="41" />
       <File FileName="Assets\Scripts\PlayerScript.cs" Line="12" Column="29" />
       <File FileName="Assets\Scripts\Goal.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\UI\Buttons.cs" Line="5" Column="2" />
-      <File FileName="Assets\Scripts\SaveData.cs" Line="23" Column="20" />
-      <File FileName="Assets\Scripts\PlayerData.cs" Line="9" Column="16" />
-      <File FileName="Assets\Scripts\EmotionResults.cs" Line="67" Column="16" />
-      <File FileName="Assets\Scripts\UI\IntroButtons.cs" Line="43" Column="39" />
+      <File FileName="Assets\Scripts\UI\Buttons.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\SaveData.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\PlayerData.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\EmotionResults.cs" Line="28" Column="24" />
+      <File FileName="Assets\Scripts\UI\IntroButtons.cs" Line="43" Column="4" />
+      <File FileName="Assets\Scripts\BarrierManager.cs" Line="166" Column="3" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

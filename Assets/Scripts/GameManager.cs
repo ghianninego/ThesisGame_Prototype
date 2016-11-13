@@ -20,9 +20,6 @@ public class GameManager : MonoBehaviour {
 	public UILabel randomMenuDescription;
 
 	//Emotion Game Objects
-	public UILabel emotionLabel;
-	public UISprite emotionSprite;
-	[HideInInspector] public Sprite[] allEmotionSprites;
 
 	public bool optionWindowIsActive;
 	public bool introWindow = true;
@@ -41,8 +38,6 @@ public class GameManager : MonoBehaviour {
 	}
 
 	void Start(){
-		allEmotionSprites = Resources.LoadAll<Sprite> ("emotions");
-
 		if (introWindow == true) {
 			Time.timeScale = 0;
 			IntroductionWindow.SetActive (true);
@@ -53,14 +48,15 @@ public class GameManager : MonoBehaviour {
 		SetMenus ();
 		optionWindowIsActive = false;
 
-		//Emotion sprite based from emotion recognition system
-
-
 		//Goals
 		things = GameObject.FindGameObjectsWithTag ("Goal");
 		goal = things [Random.Range (0, things.Length)];
 		goal.GetComponent<Goal> ().IsGoal = true;
 		Debug.Log (goal.name);
+	}
+
+	void Update(){
+		StartCoroutine(SomeRandom ());
 	}
 
 	void SetMenus() {
@@ -84,9 +80,11 @@ public class GameManager : MonoBehaviour {
 		Buttons.Instance.ClickedNo ();
 	}
 
-	public void SetEmotionSprite(char emotion) {
-		emotionSprite.spriteName = char.ToString(emotion);
+	IEnumerator SomeRandom(){
+		while (true) {
+			BarrierManager.Singleton.EmotionFound (Random.Range (0, 7));
+			yield return 2f;
+		}
 	}
-
 
 }

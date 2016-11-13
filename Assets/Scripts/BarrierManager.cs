@@ -3,7 +3,7 @@ using System.Collections;
 
 public class BarrierManager : MonoBehaviour {
 
-	public static BarrierManager Instance = null;
+	public static BarrierManager Singleton = null;
 
 	GameObject[] happyBarrier;
 	GameObject[] sadBarrier;
@@ -12,11 +12,14 @@ public class BarrierManager : MonoBehaviour {
 	GameObject[] surpriseBarrier;
 	GameObject[] disgustBarrier;
 
+	public UILabel emotionLabel;
+	public UISprite emotionSprite;
+
 	void Start () {
-		if (Instance == null) {
-			Instance = this;
+		if (Singleton == null) {
+			Singleton = this;
 		} else {
-			Destroy (Instance);
+			Destroy (Singleton);
 		}
 
 		happyBarrier = GameObject.FindGameObjectsWithTag ("Happy");
@@ -49,31 +52,45 @@ public class BarrierManager : MonoBehaviour {
 		switch(emotion) {
 			case 1:
 				IsAngry ();
+				emotionLabel.text = "ANGER";
+				emotionSprite.spriteName = emotion.ToString();
 				break;
 			case 2:
 				IsDisgust ();
+				emotionLabel.text = "DISGUST";
+				emotionSprite.spriteName = emotion.ToString();
 				break;
 			case 3:
 				IsFear ();
+				emotionLabel.text = "FEAR";
+				emotionSprite.spriteName = emotion.ToString();
 				break;
 			case 4:
 				IsHappy ();
+				emotionLabel.text = "HAPPY";
+				emotionSprite.spriteName = emotion.ToString();
 				break;
 			case 5:
 				IsSad ();
+				emotionLabel.text = "SADNESS";
+				emotionSprite.spriteName = emotion.ToString();
 				break;
 			case 6:
 				IsSurprise ();
+				emotionLabel.text = "SURPRISE";
+				emotionSprite.spriteName = emotion.ToString();
 				break;
 			case 0:
 				EmotionResults.Singleton.Neutral ();
+				emotionLabel.text = "NEUTRAL";
+				emotionSprite.spriteName = emotion.ToString();
 				break;
 			default:
 				//return nothing
 				break;
 		}
 
-		GameManager.Instance.playersEmotionMenu.SetActive (true);
+		//GameManager.Instance.playersEmotionMenu.SetActive (true);
 	}
 
 	void IsHappy() {
@@ -147,4 +164,5 @@ public class BarrierManager : MonoBehaviour {
 
 		EmotionResults.Singleton.Disgust ();
 	}
+
 }
