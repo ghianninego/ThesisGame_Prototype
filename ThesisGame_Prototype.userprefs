@@ -2,12 +2,14 @@
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\GameManager.cs">
     <Files>
-      <File FileName="Assets\Scripts\GameManager.cs" Line="35" Column="40" />
-      <File FileName="Assets\Scripts\UI\IntroButtons.cs" Line="32" Column="24" />
+      <File FileName="Assets\Scripts\UI\IntroButtons.cs" Line="39" Column="43" />
       <File FileName="Assets\Scripts\Goal.cs" Line="20" Column="26" />
       <File FileName="Assets\Scripts\UI\Buttons.cs" Line="59" Column="53" />
-      <File FileName="Assets\Scripts\BarrierManager.cs" Line="69" Column="5" />
-      <File FileName="Assets\Scripts\EmotionResults.cs" Line="25" Column="19" />
+      <File FileName="Assets\Scripts\BarrierManager.cs" Line="147" Column="1" />
+      <File FileName="Assets\Scripts\EmotionResults.cs" Line="59" Column="3" />
+      <File FileName="Assets\Scripts\GameManager.cs" Line="25" Column="53" />
+      <File FileName="..\GameJamProject\Assets\Scripts\PlayerManager.cs" Line="42" Column="10" />
+      <File FileName="..\GameJamProject\Assets\Scripts\PatientScript.cs" Line="83" Column="54" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

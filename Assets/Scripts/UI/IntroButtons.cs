@@ -16,21 +16,15 @@ public class IntroButtons : MonoBehaviour {
 		string _id = id.text;
 		string _section = section.text;
 
-		if (CheckInput (_name, _id) == true) {
+		if (CheckInput (_name, _id, _section) == true) {
 			//submit data
 
 			PlayerDataInputPanel.SetActive (false);
 			Done ();
 			IntroPanel.SetActive (true);
-
-
 		} else {
 			Debug.Log ("Invalid Input");
 		}
-
-
-
-
 	}
 
 	public void IntroClose() {
@@ -40,8 +34,9 @@ public class IntroButtons : MonoBehaviour {
 		GameManager.Instance.introWindow = false;
 	}
 
-	bool CheckInput(string n, string i) {
-		if (n.Equals("") || n.Equals("Enter name here") || i.Equals("") || i.Equals("Enter ID here")) {
+	bool CheckInput(string n, string i, string s) {
+		if (n.Equals("") || n.Equals("Enter name here") || i.Equals("") || i.Equals("Enter ID here") |
+			s.Equals("") || s.Equals("Enter Section here")) {
 			return false;
 		} else {
 			return true;

@@ -48,22 +48,22 @@ public class BarrierManager : MonoBehaviour {
 	public void EmotionFound(int emotion) {
 		switch(emotion) {
 			case 1:
-				IsHappy ();
-				break;
-			case 2:
-				IsSad ();
-				break;
-			case 3:
 				IsAngry ();
 				break;
-			case 4:
+			case 2:
+				IsDisgust ();
+				break;
+			case 3:
 				IsFear ();
 				break;
+			case 4:
+				IsHappy ();
+				break;
 			case 5:
-				IsSurprise ();
+				IsSad ();
 				break;
 			case 6:
-				IsDisgust ();
+				IsSurprise ();
 				break;
 			case 0:
 				EmotionResults.Singleton.Neutral ();
