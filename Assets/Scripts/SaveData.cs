@@ -8,7 +8,7 @@ public class SaveData : MonoBehaviour {
 	string delimiter = ",";  
 	public static SaveData Singleton = null;
 
-	public void CLICKED () {
+ void Start () {
 		if(Singleton==null){
 			Singleton = this;
 		}else{

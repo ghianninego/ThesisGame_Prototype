@@ -18,6 +18,7 @@ public class PlayerScript : MonoBehaviour {
 				victory.SetActive (true);
 			} else {
 				notVictory.SetActive (true);
+				carrying = null;
 			}
 		}
 	}

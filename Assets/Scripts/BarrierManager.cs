@@ -5,12 +5,12 @@ public class BarrierManager : MonoBehaviour {
 
 	public static BarrierManager Singleton = null;
 
-	GameObject[] happyBarrier;
-	GameObject[] sadBarrier;
-	GameObject[] angerBarrier;
-	GameObject[] fearBarrier;
-	GameObject[] surpriseBarrier;
-	GameObject[] disgustBarrier;
+	GameObject happyBarrier;
+	GameObject sadBarrier;
+	GameObject angerBarrier;
+	GameObject fearBarrier;
+	GameObject surpriseBarrier;
+	GameObject disgustBarrier;
 
 	public UILabel emotionLabel;
 	public UISprite emotionSprite;
@@ -22,68 +22,61 @@ public class BarrierManager : MonoBehaviour {
 			Destroy (Singleton);
 		}
 
-		happyBarrier = GameObject.FindGameObjectsWithTag ("Happy");
-		sadBarrier = GameObject.FindGameObjectsWithTag ("Sad");
-		angerBarrier = GameObject.FindGameObjectsWithTag ("Anger");
-		fearBarrier = GameObject.FindGameObjectsWithTag ("Fear");
-		surpriseBarrier = GameObject.FindGameObjectsWithTag ("Surprise");
-		disgustBarrier = GameObject.FindGameObjectsWithTag ("Disgust");
+		happyBarrier = GameObject.FindGameObjectWithTag ("Happy");
+		sadBarrier = GameObject.FindGameObjectWithTag ("Sad");
+		angerBarrier = GameObject.FindGameObjectWithTag ("Anger");
+		fearBarrier = GameObject.FindGameObjectWithTag ("Fear");
+		surpriseBarrier = GameObject.FindGameObjectWithTag ("Surprise");
+		disgustBarrier = GameObject.FindGameObjectWithTag ("Disgust");
 
 		InitializeBarrier ();
 	}
 
 	void InitializeBarrier() {
-		happyBarrier [0].SetActive(true);
-		sadBarrier [0].SetActive (true);
-		angerBarrier [0].SetActive (true);
-		fearBarrier [0].SetActive (true);
-		surpriseBarrier [0].SetActive (true);
-		disgustBarrier [0].SetActive (true);
-
-		happyBarrier [1].SetActive (false);
-		sadBarrier [1].SetActive (false);
-		angerBarrier [1].SetActive (false);
-		fearBarrier [1].SetActive (false);
-		surpriseBarrier [1].SetActive (false);
-		disgustBarrier [1].SetActive (false);
+		happyBarrier .SetActive(true);
+		sadBarrier .SetActive (true);
+		angerBarrier .SetActive (true);
+		fearBarrier .SetActive (true);
+		surpriseBarrier .SetActive (true);
+		disgustBarrier .SetActive (true);
 	}
 
-	public void EmotionFound(int emotion) {
+	public void EmotionFound(string emotion) {
+		CloseBarrier (emotion);
 		switch(emotion) {
-			case 1:
+			case "ANGER":
 				IsAngry ();
 				emotionLabel.text = "ANGER";
-				emotionSprite.spriteName = emotion.ToString();
+				emotionSprite.spriteName = emotion;
 				break;
-			case 2:
+			case "DISGUST":
 				IsDisgust ();
 				emotionLabel.text = "DISGUST";
-				emotionSprite.spriteName = emotion.ToString();
+				emotionSprite.spriteName = emotion;
 				break;
-			case 3:
+			case "FEAR":
 				IsFear ();
 				emotionLabel.text = "FEAR";
-				emotionSprite.spriteName = emotion.ToString();
+				emotionSprite.spriteName = emotion;
 				break;
-			case 4:
+			case "HAPPINESS":
 				IsHappy ();
 				emotionLabel.text = "HAPPY";
-				emotionSprite.spriteName = emotion.ToString();
+				emotionSprite.spriteName = emotion;
 				break;
-			case 5:
+			case "SADNESS":
 				IsSad ();
 				emotionLabel.text = "SADNESS";
-				emotionSprite.spriteName = emotion.ToString();
+				emotionSprite.spriteName = emotion;
 				break;
-			case 6:
+			case "SURPRISE":
 				IsSurprise ();
 				emotionLabel.text = "SURPRISE";
-				emotionSprite.spriteName = emotion.ToString();
+				emotionSprite.spriteName = emotion;
 				break;
-			case 0:
-				EmotionResults.Singleton.Neutral ();
+			case "NEUTRAL":
 				emotionLabel.text = "NEUTRAL";
-				emotionSprite.spriteName = emotion.ToString();
+				emotionSprite.spriteName = emotion;
 				break;
 			default:
 				//return nothing
@@ -94,75 +87,91 @@ public class BarrierManager : MonoBehaviour {
 	}
 
 	void IsHappy() {
-		if (happyBarrier [0].activeSelf == true) {
-			happyBarrier [0].SetActive (false);
-			happyBarrier [1].SetActive (true);
-		} else if (happyBarrier [1].activeSelf == true) {
-			happyBarrier [1].SetActive (false);
-			happyBarrier [0].SetActive (true);
-		}
-
-		EmotionResults.Singleton.Happy ();
+		happyBarrier  .SetActive (false);
 	}
 
 	void IsSad() {
-		if (sadBarrier [0].activeSelf == true) {
-			sadBarrier [0].SetActive (false);
-			sadBarrier [1].SetActive (true);
-		} else if (sadBarrier [1].activeSelf == true) {
-			sadBarrier [1].SetActive (false);
-			sadBarrier [0].SetActive (true);
-		}
-
-		EmotionResults.Singleton.Sad ();
+		sadBarrier  .SetActive (false);
 	}
 
 	void IsAngry() {
-		if (angerBarrier [0].activeSelf == true) {
-			angerBarrier [0].SetActive (false);
-			angerBarrier [1].SetActive (true);
-		} else if (angerBarrier [1].activeSelf == true) {
-			angerBarrier [1].SetActive (false);
-			angerBarrier [0].SetActive (true);
-		}
-
-		EmotionResults.Singleton.Anger ();
+		angerBarrier  .SetActive (false);
 	}
 
 	void IsFear() {
-		if (fearBarrier [0].activeSelf == true) {
-			fearBarrier [0].SetActive (false);
-			fearBarrier [1].SetActive (true);
-		} else if (fearBarrier [1].activeSelf == true) {
-			fearBarrier [1].SetActive (false);
-			fearBarrier [0].SetActive (true);
-		}
-
-		EmotionResults.Singleton.Fear ();
+		fearBarrier  .SetActive (false);
 	}
 
 	void IsSurprise() {
-		if (surpriseBarrier [0].activeSelf == true) {
-			surpriseBarrier [0].SetActive (false);
-			surpriseBarrier [1].SetActive (true);
-		} else if (surpriseBarrier [1].activeSelf == true) {
-			surpriseBarrier [1].SetActive (false);
-			surpriseBarrier [0].SetActive (true);
-		}
-
-		EmotionResults.Singleton.Surprise ();
+		surpriseBarrier .SetActive(false);
 	}
 
 	void IsDisgust() {
-		if (disgustBarrier [0].activeSelf == true) {
-			disgustBarrier [0].SetActive (false);
-			disgustBarrier [1].SetActive (true);
-		} else if (disgustBarrier [1].activeSelf == true) {
-			disgustBarrier [1].SetActive (false);
-			disgustBarrier [0].SetActive (true);
+		disgustBarrier  .SetActive (false);
+	}
+
+	void CloseBarrier(string emotion){
+		switch(emotion) {
+		case "ANGRY":
+			happyBarrier.SetActive(true);
+			sadBarrier.SetActive (true);
+			fearBarrier.SetActive (true);
+			surpriseBarrier.SetActive (true);
+			disgustBarrier.SetActive (true);
+			break;
+		case "DISGUST":
+			happyBarrier.SetActive(true);
+			sadBarrier.SetActive (true);
+			angerBarrier.SetActive (true);
+			fearBarrier.SetActive (true);
+			surpriseBarrier.SetActive (true);
+			break;
+		case "FEAR":
+			happyBarrier  .SetActive(true);
+			sadBarrier  .SetActive (true);
+			angerBarrier  .SetActive (true);
+			//fearBarrier  .SetActive (true);
+			surpriseBarrier  .SetActive (true);
+			disgustBarrier  .SetActive (true);
+			break;
+		case "HAPPY":
+			//happyBarrier  .SetActive(true);
+			sadBarrier  .SetActive (true);
+			angerBarrier  .SetActive (true);
+			fearBarrier  .SetActive (true);
+			surpriseBarrier  .SetActive (true);
+			disgustBarrier  .SetActive (true);
+			break;
+		case "SAD":
+			happyBarrier  .SetActive(true);
+			//sadBarrier  .SetActive (true);
+			angerBarrier  .SetActive (true);
+			fearBarrier  .SetActive (true);
+			surpriseBarrier  .SetActive (true);
+			disgustBarrier  .SetActive (true);
+			break;
+		case "SURPRISE":
+			happyBarrier  .SetActive(true);
+			sadBarrier  .SetActive (true);
+			angerBarrier  .SetActive (true);
+			fearBarrier  .SetActive (true);
+			//surpriseBarrier  .SetActive (true);
+			disgustBarrier  .SetActive (true);
+			break;
+		case "NEUTRAL":
+			happyBarrier  .SetActive(true);
+			sadBarrier  .SetActive (true);
+			angerBarrier  .SetActive (true);
+			fearBarrier  .SetActive (true);
+			surpriseBarrier  .SetActive (true);
+			disgustBarrier  .SetActive (true);
+			break;
+		default:
+			//return nothing
+			break;
 		}
 
-		EmotionResults.Singleton.Disgust ();
 	}
+
 
 }

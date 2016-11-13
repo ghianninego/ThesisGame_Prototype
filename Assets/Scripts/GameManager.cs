@@ -56,7 +56,7 @@ public class GameManager : MonoBehaviour {
 	}
 
 	void Update(){
-		StartCoroutine(SomeRandom ());
+		BarrierManager.Singleton.EmotionFound (System.IO.File.ReadAllText("Emotion.txt").ToUpper());
 	}
 
 	void SetMenus() {
@@ -80,11 +80,6 @@ public class GameManager : MonoBehaviour {
 		Buttons.Instance.ClickedNo ();
 	}
 
-	IEnumerator SomeRandom(){
-		while (true) {
-			BarrierManager.Singleton.EmotionFound (Random.Range (0, 7));
-			yield return 2f;
-		}
-	}
+
 
 }
