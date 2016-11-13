@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using UnityEngine.SceneManagement;
 
 public class Buttons : MonoBehaviour {
 
@@ -61,6 +62,7 @@ public class Buttons : MonoBehaviour {
 
 	public void victoryClose(GameObject window){
 		window.SetActive (false);
+		SceneManager.LoadScene (2);
 	}
 
 	public void notVictoryClose(GameObject window){

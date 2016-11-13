@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
+
 public class GameManager : MonoBehaviour {
 
 	public static GameManager Instance = null;
@@ -56,7 +57,12 @@ public class GameManager : MonoBehaviour {
 	}
 
 	void Update(){
-		BarrierManager.Singleton.EmotionFound (System.IO.File.ReadAllText("Emotion.txt").ToUpper());
+		try{
+			BarrierManager.Singleton.EmotionFound (System.IO.File.ReadAllText("Emotion Recognition System/emotions.txt").ToUpper());
+
+		} catch (System.Exception e){
+			Debug.Log ("Some error :");
+		}
 	}
 
 	void SetMenus() {

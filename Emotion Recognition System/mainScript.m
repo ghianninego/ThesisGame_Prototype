@@ -1,4 +1,4 @@
-%%%%%%%%%%% DATABASE PREPROCESSING AND TRAINING %%%%%%%%%%%%%%%%%%%%%
+c%%%%%%%%%%% DATABASE PREPROCESSING AND TRAINING %%%%%%%%%%%%%%%%%%%%%
 
 %%%%%%%%%%%%%%%%%%%%% READ DATABASE %%%%%%%%%%%%%%%%%%%%%%%%%%%
 fid = fopen('faces.csv');
@@ -213,28 +213,47 @@ while runLoop
       if testLabel == '0'
           emotion = 'neutral';
       elseif testLabel == '1'
-          emotion = 'angry';
+          emotion = 'anger';
       elseif testLabel == '2'
           emotion = 'disgust';
       elseif testLabel == '3'
           emotion = 'fear';
       elseif testLabel == '4'
-          emotion = 'happy';
+          emotion = 'happiness';
       elseif testLabel == '5'
-          emotion = 'sad';
+          emotion = 'sadness';
       elseif testLabel == '6'
           emotion = 'surprise';
       end
       %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
       
       %%%%%%%%%%%%%%%%%%% UPDATE TEXT FILE %%%%%%%%%%%%%%%%%%%%%%%%%%%
-        fileData = fopen('data.txt','w');
+        fileData = fopen('emotions.txt','w');
         if(fileData ~= -1)
             fprintf(fileData,'%s',emotion);
             fclose(fileData);
         end
         
       %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+      triggerNum = 0;
+      %%%%%%%%%%%%%%%%%%% CAPTURE ON TRIGGER %%%%%%%%%%%%%%%%%%%%%%%%%
+      captureTrigger = fopen('trigger.txt','r');
+        if(captureTrigger >= 0)
+                    triggerNum = fread(captureTrigger);
+                    fclose(captureTrigger);
+        end
+        rewrite = fopen('trigger.txt','w+');
+         if(rewrite >= 0)
+                    fprintf(rewrite,'0');
+                    fclose(rewrite);
+         end
+      if triggerNum == 49
+         imageName = ['image' num2str(c) '.png'];
+        imwrite(croppedImage,imageName);
+        c= c+1;
+      end
+      %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+      
  end
   %%%%%%%%%%%%%%%%%%%%% DISPLAY FRAMES %%%%%%%%%%%%%%%%%%%%%%%%%%%%
     step(videoPlayer2, croppedImage);

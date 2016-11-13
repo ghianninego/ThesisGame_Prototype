@@ -7,8 +7,16 @@ public class KeyboardScript : MonoBehaviour {
 
 
 	void Update () {
+
+
 		if (Input.GetKeyDown (KeyCode.Space)) {
-			File.WriteAllText ("key.txt", 1.ToString());
+			try{
+				File.WriteAllText ("Emotion Recognition System/trigger.txt", 1.ToString());
+			} catch (System.Exception e){
+				Debug.Log ("Some error :");
+			}
+
+
 		}
 	}
 }
