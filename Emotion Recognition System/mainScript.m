@@ -1,4 +1,4 @@
-c%%%%%%%%%%% DATABASE PREPROCESSING AND TRAINING %%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%% DATABASE PREPROCESSING AND TRAINING %%%%%%%%%%%%%%%%%%%%%
 
 %%%%%%%%%%%%%%%%%%%%% READ DATABASE %%%%%%%%%%%%%%%%%%%%%%%%%%%
 fid = fopen('faces.csv');
